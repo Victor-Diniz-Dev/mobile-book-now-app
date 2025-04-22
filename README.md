@@ -1,1 +1,1 @@
-# mobile-book-now-app
+- Book Now é um aplicativo Android desenvolvido em Kotlin que simula uma livraria online. O usuário pode fazer login, escolher gêneros literários e visualizar livros com informações de preço e disponibilidade. A interface foi prototipada no Figma e projetada com foco em simplicidade, clareza e usabilidade.
