@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_acao
+drawable ic_biografia
+drawable ic_cientificos
+drawable ic_comedia
+drawable ic_ficcao
+drawable ic_hqs
+drawable ic_romance
+drawable ic_suspense
+id btnAcao
+id btnBiografia
+id btnCientificos
+id btnComedia
+id btnFiccao
+id btnHQs
+id btnRomance
+id btnSuspense
+id emailInput
+id loginButton
+id logoText
+id passwordInput
+layout activity_genero
+layout activity_login
+layout activity_splash

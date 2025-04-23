@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.booknow.app-merged_res-28:/layout_activity_login.xml.flat",
+        "source": "com.booknow.app-main-30:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/layout_activity_genero.xml.flat",
+        "source": "com.booknow.app-main-30:/layout/activity_genero.xml"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/drawable_ic_cientificos.png.flat",
+        "source": "com.booknow.app-main-30:/drawable/ic_cientificos.png"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/drawable_ic_biografia.png.flat",
+        "source": "com.booknow.app-main-30:/drawable/ic_biografia.png"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/drawable_ic_ficcao.png.flat",
+        "source": "com.booknow.app-main-30:/drawable/ic_ficcao.png"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/drawable_ic_comedia.png.flat",
+        "source": "com.booknow.app-main-30:/drawable/ic_comedia.png"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/drawable_ic_hqs.png.flat",
+        "source": "com.booknow.app-main-30:/drawable/ic_hqs.png"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/drawable_ic_acao.png.flat",
+        "source": "com.booknow.app-main-30:/drawable/ic_acao.png"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/layout_activity_splash.xml.flat",
+        "source": "com.booknow.app-main-30:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/drawable_ic_romance.png.flat",
+        "source": "com.booknow.app-main-30:/drawable/ic_romance.png"
+    },
+    {
+        "merged": "com.booknow.app-merged_res-28:/drawable_ic_suspense.png.flat",
+        "source": "com.booknow.app-main-30:/drawable/ic_suspense.png"
+    }
+]
