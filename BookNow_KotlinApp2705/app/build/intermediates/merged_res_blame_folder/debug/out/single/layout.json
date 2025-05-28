@@ -1,14 +1,26 @@
 [
     {
-        "merged": "com.example.booknow.app-mergeDebugResources-30:/layout/activity_splash.xml",
-        "source": "com.example.booknow.app-main-33:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-mergeDebugResources-30:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.booknow.app-mergeDebugResources-30:/layout/activity_genero.xml",
-        "source": "com.example.booknow.app-main-33:/layout/activity_genero.xml"
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-mergeDebugResources-30:\\layout\\activity_lista_livros.xml",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\activity_lista_livros.xml"
     },
     {
-        "merged": "com.example.booknow.app-mergeDebugResources-30:/layout/activity_login.xml",
-        "source": "com.example.booknow.app-main-33:/layout/activity_login.xml"
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-mergeDebugResources-30:\\layout\\activity_genero.xml",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\activity_genero.xml"
+    },
+    {
+        "merged": "com.example.booknow.app-mergeDebugResources-30:/layout/activity_detalhe_livro.xml",
+        "source": "com.example.booknow.app-main-33:/layout/activity_detalhe_livro.xml"
+    },
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-mergeDebugResources-30:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-mergeDebugResources-30:\\layout\\item_livro.xml",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\item_livro.xml"
     }
 ]

@@ -34,6 +34,9 @@ class GeneroActivity : AppCompatActivity() {
                 // Aqui da pra abrir a próxima tela tipo: Lista de Livros do genero escolhido
                 // startActivity(Intent(this, ListaLivrosActivity::class.java))
                 //pesquisar sobre  uma variavel intent pra abrir a tela de lista de livros e nao ficar fazendo varios layouts pra mesma coisa
+                val intent = Intent(this, ListaLivrosActivity::class.java)
+                intent.putExtra("GENERO", genero)
+                startActivity(intent)
             }
         }
     }

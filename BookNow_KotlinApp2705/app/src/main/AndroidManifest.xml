@@ -21,6 +21,9 @@
         </activity>
 
         <activity android:name=".GeneroActivity" android:exported="false"/>
+        <activity android:name=".ListaLivrosActivity" android:exported="false"/>
+        <activity android:name=".DetalheLivroActivity" android:exported="false"/>
+
 
 
     </application>

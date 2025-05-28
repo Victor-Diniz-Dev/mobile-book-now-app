@@ -3167,6 +3167,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAcao
+id btnAdicionarCarrinho
 id btnBiografia
 id btnCientifico
 id btnComedia
@@ -3436,6 +3437,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerLivros
 id report_drawn
 id reverseSawtooth
 id right
@@ -3552,6 +3554,13 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtEstoqueDetalhe
+id txtEstoqueLivro
+id txtPrecoDetalhe
+id txtPrecoLivro
+id txtTituloDetalhe
+id txtTituloGenero
+id txtTituloLivro
 id unchecked
 id uniform
 id unlabeled
@@ -3689,7 +3698,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_detalhe_livro
 layout activity_genero
+layout activity_lista_livros
 layout activity_login
 layout activity_splash
 layout custom_dialog
@@ -3708,6 +3719,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_livro
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

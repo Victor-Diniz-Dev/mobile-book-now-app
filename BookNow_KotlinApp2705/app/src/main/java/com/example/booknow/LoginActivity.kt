@@ -23,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
             val senha = editSenha.text.toString()
 
             //tem q fazer validação vindo do banco pra liberar esse cara....
-            if (email == "joaolima@gmail.com" && senha == "123") {
+            if (email == "teste" && senha == "123") {
                 Toast.makeText(this, "Login bem-sucedido!", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, GeneroActivity::class.java))
                 finish()

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
+ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
 MERGED from [androidx.databinding:viewbinding:8.0.2] C:\Users\joaol\.gradle\caches\transforms-3\31ca3c30469f7d853f5439cdd566c041\transformed\viewbinding-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\joaol\.gradle\caches\transforms-3\c4700dc6d87ffc843ad0969ee6cf6c0a\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\joaol\.gradle\caches\transforms-3\3ddbae31be47b514a6f00071873ba41e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -46,25 +46,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\joaol\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\joaol\.gradle\caches\transforms-3\5b0fa06cbc82e5ee4fdf226774c20126\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\joaol\.gradle\caches\transforms-3\8ea54add171e1baebe36fcb6150a20c0\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\35f1d0cf4476208cfcf61aafc272aaa4\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
-INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
 	package
 		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:2:5-34
 		INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
 		INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
-		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
+		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
 		INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
-		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-28:12
+		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:1-31:12
 		INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:4:5-26:19
+ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:4:5-29:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\joaol\.gradle\caches\transforms-3\c4700dc6d87ffc843ad0969ee6cf6c0a\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\joaol\.gradle\caches\transforms-3\c4700dc6d87ffc843ad0969ee6cf6c0a\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\joaol\.gradle\caches\transforms-3\3ddbae31be47b514a6f00071873ba41e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -119,6 +119,18 @@ ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2
 		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:50-74
 	android:name
 		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:19-49
+activity#com.example.booknow.ListaLivrosActivity
+ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:24:9-81
+	android:exported
+		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:24:55-79
+	android:name
+		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:24:19-54
+activity#com.example.booknow.DetalheLivroActivity
+ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:25:9-82
+	android:exported
+		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:25:56-80
+	android:name
+		ADDED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:25:19-55
 uses-sdk
 INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml

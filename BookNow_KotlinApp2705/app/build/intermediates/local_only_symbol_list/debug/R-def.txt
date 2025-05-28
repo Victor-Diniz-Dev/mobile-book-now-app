@@ -4,6 +4,7 @@ drawable ic_logo
 drawable ic_user
 drawable rounded_edittext
 id btnAcao
+id btnAdicionarCarrinho
 id btnBiografia
 id btnCientifico
 id btnComedia
@@ -15,7 +16,18 @@ id btnSuspense
 id editEmail
 id editSenha
 id logoImage
+id recyclerLivros
 id textAppName
+id txtEstoqueDetalhe
+id txtEstoqueLivro
+id txtPrecoDetalhe
+id txtPrecoLivro
+id txtTituloDetalhe
+id txtTituloGenero
+id txtTituloLivro
+layout activity_detalhe_livro
 layout activity_genero
+layout activity_lista_livros
 layout activity_login
 layout activity_splash
+layout item_livro

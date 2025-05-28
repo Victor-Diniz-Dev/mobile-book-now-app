@@ -3166,6 +3166,7 @@ int id bounceBoth 0x7f08005f
 int id bounceEnd 0x7f080060
 int id bounceStart 0x7f080061
 int id btnAcao 0x7f080062
+int id btnAdicionarCarrinho 0x7f080200
 int id btnBiografia 0x7f080063
 int id btnCientifico 0x7f080064
 int id btnComedia 0x7f080065
@@ -3435,6 +3436,7 @@ int id progress_horizontal 0x7f08016c
 int id radio 0x7f08016d
 int id ratio 0x7f08016e
 int id rectangles 0x7f08016f
+int id recyclerLivros 0x7f0801fb
 int id report_drawn 0x7f080170
 int id reverseSawtooth 0x7f080171
 int id right 0x7f080172
@@ -3551,6 +3553,13 @@ int id transition_position 0x7f0801e0
 int id transition_scene_layoutid_cache 0x7f0801e1
 int id transition_transform 0x7f0801e2
 int id triangle 0x7f0801e3
+int id txtEstoqueDetalhe 0x7f080201
+int id txtEstoqueLivro 0x7f0801fc
+int id txtPrecoDetalhe 0x7f080202
+int id txtPrecoLivro 0x7f0801fd
+int id txtTituloDetalhe 0x7f080203
+int id txtTituloGenero 0x7f0801fe
+int id txtTituloLivro 0x7f0801ff
 int id unchecked 0x7f0801e4
 int id uniform 0x7f0801e5
 int id unlabeled 0x7f0801e6
@@ -3688,7 +3697,9 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_detalhe_livro 0x7f0b006e
 int layout activity_genero 0x7f0b001c
+int layout activity_lista_livros 0x7f0b006c
 int layout activity_login 0x7f0b001d
 int layout activity_splash 0x7f0b001e
 int layout custom_dialog 0x7f0b001f
@@ -3707,6 +3718,7 @@ int layout design_navigation_menu 0x7f0b002b
 int layout design_navigation_menu_item 0x7f0b002c
 int layout design_text_input_end_icon 0x7f0b002d
 int layout design_text_input_start_icon 0x7f0b002e
+int layout item_livro 0x7f0b006d
 int layout m3_alert_dialog 0x7f0b002f
 int layout m3_alert_dialog_actions 0x7f0b0030
 int layout m3_alert_dialog_title 0x7f0b0031

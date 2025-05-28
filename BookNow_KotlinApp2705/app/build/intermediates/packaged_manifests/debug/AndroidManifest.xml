@@ -38,6 +38,12 @@
         <activity
             android:name="com.example.booknow.GeneroActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.booknow.ListaLivrosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.booknow.DetalheLivroActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
