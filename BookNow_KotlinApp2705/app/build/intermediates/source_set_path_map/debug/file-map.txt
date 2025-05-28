@@ -25,10 +25,10 @@ com.example.booknow.app-material-1.11.0-23 C:\Users\joaol\.gradle\caches\transfo
 com.example.booknow.app-lifecycle-livedata-core-2.6.1-24 C:\Users\joaol\.gradle\caches\transforms-3\ed7f7a9a8bb32ee0bc9a5629ce5553c7\transformed\lifecycle-livedata-core-2.6.1\res
 com.example.booknow.app-emoji2-views-helper-1.2.0-25 C:\Users\joaol\.gradle\caches\transforms-3\f56b7589d74d597a81f84015f05c572a\transformed\emoji2-views-helper-1.2.0\res
 com.example.booknow.app-lifecycle-process-2.6.1-26 C:\Users\joaol\.gradle\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\res
-com.example.booknow.app-pngs-27 C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\build\generated\res\pngs\debug
-com.example.booknow.app-resValues-28 C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\build\generated\res\resValues\debug
-com.example.booknow.app-packageDebugResources-29 C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.booknow.app-packageDebugResources-30 C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.booknow.app-merged_res-31 C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\build\intermediates\merged_res\debug
-com.example.booknow.app-debug-32 C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\debug\res
-com.example.booknow.app-main-33 C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\res
+com.example.booknow.app-pngs-27 C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\build\generated\res\pngs\debug
+com.example.booknow.app-resValues-28 C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\build\generated\res\resValues\debug
+com.example.booknow.app-packageDebugResources-29 C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.booknow.app-packageDebugResources-30 C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.booknow.app-merged_res-31 C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\build\intermediates\merged_res\debug
+com.example.booknow.app-debug-32 C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\debug\res
+com.example.booknow.app-main-33 C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\res

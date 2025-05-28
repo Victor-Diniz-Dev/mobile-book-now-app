@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
+8-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
+9-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
 10
 11    <permission
 11-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
@@ -22,49 +22,49 @@
 15-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:4:5-26:19
+17-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:4:5-26:19
 18        android:allowBackup="true"
-18-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:5:9-35
+18-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:5:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
 22        android:label="Book Now"
-22-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:6:9-33
+22-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:6:9-33
 23        android:supportsRtl="true"
-23-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:7:9-35
+23-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:7:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-25-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:8:9-68
+25-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:8:9-68
 26        <activity
-26-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:10:9-12:39
+26-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:10:9-12:39
 27            android:name="com.example.booknow.LoginActivity"
-27-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:11:13-42
+27-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:11:13-42
 28            android:exported="false" />
-28-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:12:13-37
+28-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:12:13-37
 29        <activity
-29-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:14:9-21:20
+29-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:14:9-21:20
 30            android:name="com.example.booknow.SplashActivity"
-30-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:15:13-43
+30-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:15:13-43
 31            android:exported="true" >
-31-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:16:13-36
+31-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:16:13-36
 32            <intent-filter>
-32-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:17:13-20:29
+32-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:17:13-20:29
 33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:18:17-69
-33-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:18:25-66
+33-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:18:17-69
+33-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:18:25-66
 34
 35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:19:17-77
-35-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:19:27-74
+35-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:19:17-77
+35-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:19:27-74
 36            </intent-filter>
 37        </activity>
 38        <activity
-38-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:9-76
+38-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:9-76
 39            android:name="com.example.booknow.GeneroActivity"
-39-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:19-49
+39-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:19-49
 40            android:exported="false" />
-40-->C:\Users\joaol\Downloads\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:50-74
+40-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:50-74
 41
 42        <provider
 42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaol\.gradle\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
