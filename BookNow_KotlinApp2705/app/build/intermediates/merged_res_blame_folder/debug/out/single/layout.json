@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.booknow.app-mergeDebugResources-30:/layout/activity_genero.xml",
+        "source": "com.example.booknow.app-main-33:/layout/activity_genero.xml"
+    },
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-mergeDebugResources-30:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-mergeDebugResources-30:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\activity_splash.xml"
+    }
+]

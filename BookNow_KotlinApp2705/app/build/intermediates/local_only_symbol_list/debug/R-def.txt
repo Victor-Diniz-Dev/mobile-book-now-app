@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_logo
+drawable ic_user
+drawable rounded_edittext
+id btnAcao
+id btnBiografia
+id btnCientifico
+id btnComedia
+id btnEntrar
+id btnFiccao
+id btnHq
+id btnRomance
+id btnSuspense
+id editEmail
+id editSenha
+id logoImage
+id textAppName
+layout activity_genero
+layout activity_login
+layout activity_splash

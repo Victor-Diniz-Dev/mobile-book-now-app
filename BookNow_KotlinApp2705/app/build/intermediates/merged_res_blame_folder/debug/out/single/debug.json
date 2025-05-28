@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-merged_res-31:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-merged_res-31:\\drawable_ic_user.png.flat",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\drawable\\ic_user.png"
+    },
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-merged_res-31:\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-merged_res-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-merged_res-31:\\drawable_ic_logo.png.flat",
+        "source": "C:\\Users\\joaol\\.gradle\\daemon\\8.2\\com.example.booknow.app-main-33:\\drawable\\ic_logo.png"
+    },
+    {
+        "merged": "com.example.booknow.app-merged_res-31:/layout_activity_genero.xml.flat",
+        "source": "com.example.booknow.app-main-33:/layout/activity_genero.xml"
+    }
+]
