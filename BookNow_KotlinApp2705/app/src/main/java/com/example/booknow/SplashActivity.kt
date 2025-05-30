@@ -11,6 +11,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
+        //.aguarda dois segundos,abre a classe login e fecha a splash
         Handler().postDelayed({
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
