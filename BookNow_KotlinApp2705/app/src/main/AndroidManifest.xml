@@ -2,6 +2,7 @@
     package="com.example.booknow">
 
     <application
+        android:icon="@mipmap/ic_launcher"
         android:allowBackup="true"
         android:label="Book Now"
         android:supportsRtl="true"
@@ -23,6 +24,7 @@
         <activity android:name=".GeneroActivity" android:exported="false"/>
         <activity android:name=".ListaLivrosActivity" android:exported="false"/>
         <activity android:name=".DetalheLivroActivity" android:exported="false"/>
+        <activity android:name=".CadastroActivity"/>
 
 
 
