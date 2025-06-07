@@ -1,7 +1,8 @@
         <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.booknow">
+            <uses-permission android:name="android.permission.INTERNET" />
 
-    <application
+            <application
         android:icon="@drawable/ic_logo"
         android:allowBackup="true"
         android:label="Book Now"
@@ -9,7 +10,7 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".model.LoginActivity"
             android:exported="false"/>
 
         <activity
@@ -21,7 +22,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".GeneroActivity" android:exported="false"/>
+        <activity android:name=".model.GeneroActivity" android:exported="false"/>
         <activity android:name=".ListaLivrosActivity" android:exported="false"/>
         <activity android:name=".DetalheLivroActivity" android:exported="false"/>
         <activity android:name=".CadastroActivity"/>
