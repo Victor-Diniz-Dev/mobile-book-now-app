@@ -6,16 +6,24 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.lifecycleScope
-import com.example.booknow.data.AppDatabase
-import com.example.booknow.data.entity.Usuario
-import com.example.booknow.util.hashSenha
-import kotlinx.coroutines.launch
+import com.example.booknow.data.ApiService
+import com.example.booknow.data.RetrofitClient
+import com.example.booknow.data.Usuario
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import com.example.booknow.data.ApiResponse
+import com.example.booknow.model.LoginActivity
 
 class CadastroActivity : AppCompatActivity() {
+
+    private lateinit var apiService: ApiService
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cadastro)
+
+        apiService = RetrofitClient.retrofit.create(ApiService::class.java)
 
         val nomeInput = findViewById<EditText>(R.id.editNome)
         val emailInput = findViewById<EditText>(R.id.editEmail)
@@ -32,21 +40,26 @@ class CadastroActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            val senhaCriptografada = hashSenha(senha)
-            val db = AppDatabase.getDatabase(this)
+            val usuario = Usuario(nome = nome, email = email, senha = senha)
 
-            lifecycleScope.launch {
-                val usuarioExistente = db.usuarioDao().buscarPorEmail(email)
-                if (usuarioExistente != null) {
-                    Toast.makeText(this@CadastroActivity, "Email já cadastrado", Toast.LENGTH_SHORT).show()
-                } else {
-                    val novoUsuario = Usuario(nome = nome, email = email, senhaHash = senhaCriptografada)
-                    db.usuarioDao().inserir(novoUsuario)
-                    Toast.makeText(this@CadastroActivity, "Cadastro realizado com sucesso!", Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this@CadastroActivity, LoginActivity::class.java))
-                    finish()
+            apiService.cadastrarUsuario(usuario).enqueue(object : Callback<ApiResponse> {
+                override fun onResponse(
+                    call: Call<ApiResponse>,
+                    response: Response<ApiResponse>
+                ) {
+                    if (response.isSuccessful) {
+                        Toast.makeText(this@CadastroActivity, "Cadastro realizado com sucesso!", Toast.LENGTH_SHORT).show()
+                        startActivity(Intent(this@CadastroActivity, LoginActivity::class.java))
+                        finish()
+                    } else {
+                        Toast.makeText(this@CadastroActivity, "Erro ao cadastrar: ${response.code()}", Toast.LENGTH_SHORT).show()
+                    }
                 }
-            }
+
+                override fun onFailure(call: Call<ApiResponse>, t: Throwable) {
+                    Toast.makeText(this@CadastroActivity, "Erro de conexão: ${t.message}", Toast.LENGTH_SHORT).show()
+                }
+            })
         }
     }
 }
