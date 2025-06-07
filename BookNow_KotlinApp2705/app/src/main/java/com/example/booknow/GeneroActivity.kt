@@ -1,18 +1,18 @@
-package com.example.booknow
+package com.example.booknow.model
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import android.widget.Toast
+import com.example.booknow.ListaLivrosActivity
+import com.example.booknow.R
 
 class GeneroActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_genero)
 
-// Referencia os botões da tela de escolha de gênero
+        // Mapeia os botões com seus respectivos IDs
         val btnFiccao = findViewById<Button>(R.id.btnFiccao)
         val btnComedia = findViewById<Button>(R.id.btnComedia)
         val btnBiografia = findViewById<Button>(R.id.btnBiografia)
@@ -22,22 +22,26 @@ class GeneroActivity : AppCompatActivity() {
         val btnHq = findViewById<Button>(R.id.btnHq)
         val btnCientifico = findViewById<Button>(R.id.btnCientifico)
 
-        //aplica a msm ação (de clique) pra todos os butões
-        val buttons = listOf(btnFiccao, btnComedia, btnBiografia, btnSuspense, btnRomance, btnAcao, btnHq, btnCientifico)
+        // Opcional: Botão Continuar (ainda não programado)
+        val btnContinuar = findViewById<Button>(R.id.btnContinuar)
 
-        //pra cada botao, define uma ação
-        buttons.forEach { button ->
-            button.setOnClickListener {
-                val genero = button.text.toString()
-                Toast.makeText(this, "Você escolheu $genero", Toast.LENGTH_SHORT).show()
+        // Define ação para cada botão (envia id fictício do gênero)
+        btnFiccao.setOnClickListener { abrirListaLivros(1) }
+        btnComedia.setOnClickListener { abrirListaLivros(2) }
+        btnBiografia.setOnClickListener { abrirListaLivros(3) }
+        btnSuspense.setOnClickListener { abrirListaLivros(4) }
+        btnRomance.setOnClickListener { abrirListaLivros(5) }
+        btnAcao.setOnClickListener { abrirListaLivros(6) }
+        btnHq.setOnClickListener { abrirListaLivros(7) }
+        btnCientifico.setOnClickListener { abrirListaLivros(8) }
 
-                // Aqui da pra abrir a próxima tela tipo: Lista de Livros do genero escolhido
-                // startActivity(Intent(this, ListaLivrosActivity::class.java))
-                //pesquisar sobre  uma variavel intent pra abrir a tela de lista de livros e nao ficar fazendo varios layouts pra mesma coisa
-                val intent = Intent(this, ListaLivrosActivity::class.java)
-                intent.putExtra("GENERO", genero)
-                startActivity(intent)
-            }
-        }
+        // Por enquanto, o botão "Continuar" pode abrir uma lista genérica
+        btnContinuar.setOnClickListener { abrirListaLivros(1) } // ou você pode deixar sem ação
+    }
+
+    private fun abrirListaLivros(generoId: Int) {
+        val intent = Intent(this, ListaLivrosActivity::class.java)
+        intent.putExtra("genero_id", generoId)
+        startActivity(intent)
     }
 }
