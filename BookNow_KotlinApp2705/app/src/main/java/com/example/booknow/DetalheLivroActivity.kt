@@ -30,7 +30,7 @@ class DetalheLivroActivity : AppCompatActivity() {
         // Define os valores nas views
         txtTitulo.text = titulo
         txtPreco.text = "R$ $preco"
-        txtAutor.text = autor
+        txtAutor.text = "Escrito por "+autor
       //  txtEstoque.text = if (estoque) "Disponível ✔" else "Fora de estoque ❌"
 
         // Configura o onClickListener para o botão "Adicionar ao Carrinho"
