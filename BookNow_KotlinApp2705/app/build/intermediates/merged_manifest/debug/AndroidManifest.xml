@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.booknow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -19,12 +21,13 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
+        android:icon="@drawable/ic_logo"
         android:label="Book Now"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
         <activity
-            android:name="com.example.booknow.LoginActivity"
+            android:name="com.example.booknow.model.LoginActivity"
             android:exported="false" />
         <activity
             android:name="com.example.booknow.SplashActivity"
@@ -36,13 +39,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.booknow.GeneroActivity"
+            android:name="com.example.booknow.model.GeneroActivity"
             android:exported="false" />
         <activity
             android:name="com.example.booknow.ListaLivrosActivity"
             android:exported="false" />
         <activity
             android:name="com.example.booknow.DetalheLivroActivity"
+            android:exported="false" />
+        <activity android:name="com.example.booknow.CadastroActivity" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
             android:exported="false" />
 
         <provider

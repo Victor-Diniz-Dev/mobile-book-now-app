@@ -32,6 +32,9 @@ public final class ActivityGeneroBinding implements ViewBinding {
   public final Button btnComedia;
 
   @NonNull
+  public final Button btnContinuar;
+
+  @NonNull
   public final Button btnFiccao;
 
   @NonNull
@@ -45,13 +48,14 @@ public final class ActivityGeneroBinding implements ViewBinding {
 
   private ActivityGeneroBinding(@NonNull ScrollView rootView, @NonNull Button btnAcao,
       @NonNull Button btnBiografia, @NonNull Button btnCientifico, @NonNull Button btnComedia,
-      @NonNull Button btnFiccao, @NonNull Button btnHq, @NonNull Button btnRomance,
-      @NonNull Button btnSuspense) {
+      @NonNull Button btnContinuar, @NonNull Button btnFiccao, @NonNull Button btnHq,
+      @NonNull Button btnRomance, @NonNull Button btnSuspense) {
     this.rootView = rootView;
     this.btnAcao = btnAcao;
     this.btnBiografia = btnBiografia;
     this.btnCientifico = btnCientifico;
     this.btnComedia = btnComedia;
+    this.btnContinuar = btnContinuar;
     this.btnFiccao = btnFiccao;
     this.btnHq = btnHq;
     this.btnRomance = btnRomance;
@@ -109,6 +113,12 @@ public final class ActivityGeneroBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnContinuar;
+      Button btnContinuar = ViewBindings.findChildViewById(rootView, id);
+      if (btnContinuar == null) {
+        break missingId;
+      }
+
       id = R.id.btnFiccao;
       Button btnFiccao = ViewBindings.findChildViewById(rootView, id);
       if (btnFiccao == null) {
@@ -134,7 +144,7 @@ public final class ActivityGeneroBinding implements ViewBinding {
       }
 
       return new ActivityGeneroBinding((ScrollView) rootView, btnAcao, btnBiografia, btnCientifico,
-          btnComedia, btnFiccao, btnHq, btnRomance, btnSuspense);
+          btnComedia, btnContinuar, btnFiccao, btnHq, btnRomance, btnSuspense);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

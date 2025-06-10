@@ -6,143 +6,161 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
+8-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml
+9-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml
 10
-11    <permission
-11-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.example.booknow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.example.booknow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:3:13-75
+11-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:3:30-72
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] /Users/victordiniz/.gradle/caches/transforms-3/a807706c74770235760096a1283445c6/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.booknow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] /Users/victordiniz/.gradle/caches/transforms-3/a807706c74770235760096a1283445c6/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] /Users/victordiniz/.gradle/caches/transforms-3/a807706c74770235760096a1283445c6/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 16
-17    <application
-17-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:4:5-29:19
-18        android:allowBackup="true"
-18-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:5:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.9.0] C:\Users\joaol\.gradle\caches\transforms-3\3aea1add3a04a0da174bb1bf7eaee514\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-20        android:debuggable="true"
-21        android:extractNativeLibs="false"
-22        android:label="Book Now"
-22-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:6:9-33
-23        android:supportsRtl="true"
-23-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:7:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-25-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:8:9-68
-26        <activity
-26-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:10:9-12:39
-27            android:name="com.example.booknow.LoginActivity"
-27-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:11:13-42
-28            android:exported="false" />
-28-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:12:13-37
+17    <uses-permission android:name="com.example.booknow.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] /Users/victordiniz/.gradle/caches/transforms-3/a807706c74770235760096a1283445c6/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /Users/victordiniz/.gradle/caches/transforms-3/a807706c74770235760096a1283445c6/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:5:13-32:19
+20        android:allowBackup="true"
+20-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:7:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] /Users/victordiniz/.gradle/caches/transforms-3/a807706c74770235760096a1283445c6/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@drawable/ic_logo"
+24-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:6:9-41
+25        android:label="Book Now"
+25-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:8:9-33
+26        android:supportsRtl="true"
+26-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:9:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+28-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:10:9-68
 29        <activity
-29-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:14:9-21:20
-30            android:name="com.example.booknow.SplashActivity"
-30-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:15:13-43
-31            android:exported="true" >
-31-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:16:13-36
-32            <intent-filter>
-32-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:17:13-20:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:18:17-69
-33-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:18:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:19:17-77
-35-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:19:27-74
-36            </intent-filter>
-37        </activity>
-38        <activity
-38-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:9-76
-39            android:name="com.example.booknow.GeneroActivity"
-39-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:19-49
-40            android:exported="false" />
-40-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:23:50-74
+29-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:12:9-14:39
+30            android:name="com.example.booknow.model.LoginActivity"
+30-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:13:13-48
+31            android:exported="false" />
+31-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:14:13-37
+32        <activity
+32-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:16:9-23:20
+33            android:name="com.example.booknow.SplashActivity"
+33-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:17:13-43
+34            android:exported="true" >
+34-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:18:13-36
+35            <intent-filter>
+35-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:19:13-22:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:20:17-69
+36-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:20:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:21:17-77
+38-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:21:27-74
+39            </intent-filter>
+40        </activity>
 41        <activity
-41-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:24:9-81
-42            android:name="com.example.booknow.ListaLivrosActivity"
-42-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:24:19-54
+41-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:25:9-82
+42            android:name="com.example.booknow.model.GeneroActivity"
+42-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:25:19-55
 43            android:exported="false" />
-43-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:24:55-79
+43-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:25:56-80
 44        <activity
-44-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:25:9-82
-45            android:name="com.example.booknow.DetalheLivroActivity"
-45-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:25:19-55
+44-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:26:9-81
+45            android:name="com.example.booknow.ListaLivrosActivity"
+45-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:26:19-54
 46            android:exported="false" />
-46-->C:\WorkspaceMobile\agrVaiPorra\mobile-book-now-app\BookNow_KotlinApp2705\app\src\main\AndroidManifest.xml:25:56-80
-47
-48        <provider
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaol\.gradle\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-49            android:name="androidx.startup.InitializationProvider"
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaol\.gradle\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-50            android:authorities="com.example.booknow.androidx-startup"
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaol\.gradle\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-51            android:exported="false" >
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaol\.gradle\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-52            <meta-data
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaol\.gradle\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaol\.gradle\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-54                android:value="androidx.startup" />
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\joaol\.gradle\caches\transforms-3\27af3f6d23e9dd0d72b800d69c074530\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-55            <meta-data
-55-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joaol\.gradle\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-56-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joaol\.gradle\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-57                android:value="androidx.startup" />
-57-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\joaol\.gradle\caches\transforms-3\f79190397dab7db5d6d954a72878eece\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-58            <meta-data
-58-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-59-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-60                android:value="androidx.startup" />
-60-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-61        </provider>
-62
-63        <receiver
-63-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-64            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-65            android:directBootAware="false"
-65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-66            android:enabled="true"
-66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-67            android:exported="true"
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-68            android:permission="android.permission.DUMP" >
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-69            <intent-filter>
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-70                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-71            </intent-filter>
-72            <intent-filter>
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-73                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-74            </intent-filter>
-75            <intent-filter>
-75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-76                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-77            </intent-filter>
+46-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:26:55-79
+47        <activity
+47-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:27:9-82
+48            android:name="com.example.booknow.DetalheLivroActivity"
+48-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:27:19-55
+49            android:exported="false" />
+49-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:27:56-80
+50        <activity android:name="com.example.booknow.CadastroActivity" />
+50-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:28:9-53
+50-->/Users/victordiniz/workspace/mobile-book-now-app/BookNow_KotlinApp2705/app/src/main/AndroidManifest.xml:28:19-51
+51
+52        <service
+52-->[androidx.room:room-runtime:2.6.1] /Users/victordiniz/.gradle/caches/transforms-3/9f4e3b6e994ffb2c97f56c1de46ef8a5/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.6.1] /Users/victordiniz/.gradle/caches/transforms-3/9f4e3b6e994ffb2c97f56c1de46ef8a5/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+54            android:directBootAware="true"
+54-->[androidx.room:room-runtime:2.6.1] /Users/victordiniz/.gradle/caches/transforms-3/9f4e3b6e994ffb2c97f56c1de46ef8a5/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.6.1] /Users/victordiniz/.gradle/caches/transforms-3/9f4e3b6e994ffb2c97f56c1de46ef8a5/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] /Users/victordiniz/.gradle/caches/transforms-3/783697277e998b8ded22db09cbfee0de/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/victordiniz/.gradle/caches/transforms-3/783697277e998b8ded22db09cbfee0de/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+59            android:authorities="com.example.booknow.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/victordiniz/.gradle/caches/transforms-3/783697277e998b8ded22db09cbfee0de/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/victordiniz/.gradle/caches/transforms-3/783697277e998b8ded22db09cbfee0de/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/victordiniz/.gradle/caches/transforms-3/783697277e998b8ded22db09cbfee0de/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/victordiniz/.gradle/caches/transforms-3/783697277e998b8ded22db09cbfee0de/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/victordiniz/.gradle/caches/transforms-3/783697277e998b8ded22db09cbfee0de/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/victordiniz/.gradle/caches/transforms-3/04251d409a105e8bba9354235e4a484e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/victordiniz/.gradle/caches/transforms-3/04251d409a105e8bba9354235e4a484e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/victordiniz/.gradle/caches/transforms-3/04251d409a105e8bba9354235e4a484e/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+67            <meta-data
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+69                android:value="androidx.startup" />
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+70        </provider>
+71
+72        <receiver
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+74            android:directBootAware="false"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+75            android:enabled="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+76            android:exported="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+77            android:permission="android.permission.DUMP" >
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
 78            <intent-filter>
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-79                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\joaol\.gradle\caches\transforms-3\138d955f968fb02aeafa1f45524f2e10\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
 80            </intent-filter>
-81        </receiver>
-82    </application>
-83
-84</manifest>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+85                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+88                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/victordiniz/.gradle/caches/transforms-3/afd55d95776d5042b1ec52fe84ceeb0b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+89            </intent-filter>
+90        </receiver>
+91    </application>
+92
+93</manifest>
