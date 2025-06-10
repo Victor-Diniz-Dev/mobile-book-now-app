@@ -21,7 +21,7 @@
 - *Postgre:* Banco de dados em produção
 - *Render:* Serviço que hospeda, escala e gerencia a API automaticamente.
 - *Uptimerobot:* Realização de deploy automático.
-- *API Flask + Python:* Para unir Postgre e Render.   
+- *API Flask + Python:* Para unir Postgre e Render.  (Repositório da API: https://github.com/Victor-Diniz-Dev/booknow-api)
 - *JDK 17:* JDK necessário para rodar o projeto.
 - *Arquitetura MVVM simplificado (Model-View-ViewModel):* O projeto segue uma arquitetura de camadas, separando responsabilidades entre UI, lógica de apresentação e acesso a dados.
 
