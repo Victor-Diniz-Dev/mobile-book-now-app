@@ -29,7 +29,7 @@ class LivroAdapter(
         val livro = listaLivros[position]
         holder.titulo.text = livro.titulo
         holder.preco.text = "R$ ${livro.preco}"
-        holder.estoque.text = if (livro.emEstoque) "Em estoque ✔" else "Fora de estoque ❌"
+      //  holder.estoque.text = if (livro.emEstoque) "Em estoque ✔" else "Fora de estoque ❌"
 
         holder.itemView.setOnClickListener {
             onItemClick(livro)
