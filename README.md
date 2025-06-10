@@ -1,7 +1,7 @@
 
 # 📱 BookNow - Livraria de eBooks
 
-*BookNow* é um aplicativo móvel de livraria de eBooks, desenvolvido em Kotlin para a plataforma Android. O aplicativo permite aos usuários navegar por uma variedade de livros digitais, fazer login, explorar gêneros, ver detalhes das obras e concluir a compra de forma simples e intuitiva. A arquitetura do projeto segue práticas modernas  de desenvolvimento Android., adicionar livros ao carrinho e concluir a compra de forma simples e intuitiva. A arquitetura do projeto segue práticas modernas de desenvolvimento Android.
+*BookNow* é um aplicativo móvel de livraria de eBooks, desenvolvido em Kotlin para a plataforma Android. O aplicativo permite aos usuários navegar por uma variedade de livros digitais, fazer login, explorar gêneros, ver detalhes das obras e concluir a compra de forma simples e intuitiva. A arquitetura do projeto segue práticas modernas de desenvolvimento Android, adicionar livros ao carrinho e concluir a compra de forma simples e intuitiva.
 
 ## 🔧 Funcionalidades
 
@@ -23,7 +23,8 @@
 - *Uptimerobot:* Realização de deploy automático.
 - *API Flask + Python:* Para unir Postgre e Render.   
 - *JDK 17:* JDK necessário para rodar o projeto.
-- *Arquitetura MVC (Model-View-Controller):* Estrutura utilizada no projeto, onde a camada de Model lida com dados, View exibe a interface, e Controller gerencia a lógica de interação.
+- *Arquitetura MVVM simplificado (Model-View-ViewModel):* O projeto segue uma arquitetura de camadas, separando responsabilidades entre UI, lógica de apresentação e acesso a dados.
+
 
 ## ✅ Pré-requisitos
 
