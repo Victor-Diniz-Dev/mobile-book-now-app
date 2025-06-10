@@ -1,5 +1,4 @@
 package com.example.booknow.model
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -7,6 +6,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.booknow.R
+import com.example.booknow.data.ApiResponse
 import com.example.booknow.data.ApiService
 import com.example.booknow.data.RetrofitClient
 import com.example.booknow.data.Usuario
@@ -35,35 +35,32 @@ class CadastroActivity : AppCompatActivity() {
             val email = emailInput.text.toString().trim()
             val senha = senhaInput.text.toString().trim()
 
-            if (nome.isBlank() || email.isBlank() || senha.isBlank()) {
+            if (nome.isEmpty() || email.isEmpty() || senha.isEmpty()) {
                 Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
-            val usuario = Usuario(nome = nome, email = email, senhaHash = hashSenha(senha))
+            val usuario = Usuario(nome = nome, email = email, senha = senha)
 
-            apiService.cadastrarUsuario(usuario).enqueue(object : Callback<com.example.booknow.data.ApiResponse> {
-                override fun onResponse(
-                    call: Call<com.example.booknow.data.ApiResponse>,
-                    response: Response<com.example.booknow.data.ApiResponse>
-                ) {
+            apiService.cadastrarUsuario(usuario).enqueue(object : Callback<ApiResponse> {
+                override fun onResponse(call: Call<ApiResponse>, response: Response<ApiResponse>) {
                     if (response.isSuccessful) {
                         Toast.makeText(this@CadastroActivity, "Cadastro realizado com sucesso!", Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this@CadastroActivity, LoginActivity::class.java))
-                        finish()
+                        finish() // ou redirecione para a tela de login
                     } else {
                         Toast.makeText(this@CadastroActivity, "Erro ao cadastrar: ${response.code()}", Toast.LENGTH_SHORT).show()
                     }
                 }
 
-                override fun onFailure(call: Call<com.example.booknow.data.ApiResponse>, t: Throwable) {
-                    Toast.makeText(this@CadastroActivity, "Erro de conexão: ${t.message}", Toast.LENGTH_SHORT).show()
+                override fun onFailure(call: Call<ApiResponse>, t: Throwable) {
+                    Toast.makeText(this@CadastroActivity, "Erro de rede: ${t.message}", Toast.LENGTH_SHORT).show()
                 }
             })
         }
+
     }
 
-    private fun hashSenha(senha: String): String {
+    private fun senha(senha: String): String {
         val md = MessageDigest.getInstance("SHA-256")
         val digest = md.digest(senha.toByteArray())
         return digest.fold("") { str, it -> str + "%02x".format(it) }
