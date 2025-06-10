@@ -27,6 +27,8 @@
         <activity android:name=".DetalheLivroActivity" android:exported="false"/>
         <activity android:name=".model.CadastroActivity"/>
    <activity android:name=".ui.PagamentoActivity"></activity>
+                <activity android:name=".ui.ConclusaoPagamentoActivity"></activity>
+
 
 
 
