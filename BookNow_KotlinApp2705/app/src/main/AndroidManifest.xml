@@ -26,10 +26,12 @@
         <activity android:name=".ListaLivrosActivity" android:exported="false"/>
         <activity android:name=".DetalheLivroActivity" android:exported="false"/>
         <activity android:name=".model.CadastroActivity"/>
+   <activity android:name=".ui.PagamentoActivity"></activity>
 
 
 
 
-    </application>
+
+            </application>
 
 </manifest>
