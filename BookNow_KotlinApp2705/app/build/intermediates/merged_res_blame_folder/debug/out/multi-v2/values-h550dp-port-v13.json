@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.booknow.app-mergeDebugResources-29:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "com.example.booknow.app-mergeDebugResources-33:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\joaol\\.gradle\\caches\\transforms-3\\c4700dc6d87ffc843ad0969ee6cf6c0a\\transformed\\material-1.11.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "/Users/victordiniz/.gradle/caches/transforms-3/96fd0cadba835ecdf48b8f33e9902cbc/transformed/material-1.11.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

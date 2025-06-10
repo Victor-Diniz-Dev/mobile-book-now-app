@@ -7,7 +7,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.booknow.CadastroActivity
+import com.example.booknow.model.CadastroActivity
 import com.example.booknow.R
 import com.example.booknow.databinding.ActivityLoginBinding
 import com.example.booknow.data.ApiService

@@ -1,19 +1,23 @@
 R_DEF: Internal format may change without notice
 local
+drawable ic_launcher_background
 drawable ic_logo
 drawable ic_user
 drawable rounded_edittext
 id btnAcao
 id btnAdicionarCarrinho
 id btnBiografia
+id btnCadastrar
 id btnCientifico
 id btnComedia
-id btnEntrar
+id btnContinuar
 id btnFiccao
 id btnHq
+id btnLogin
 id btnRomance
 id btnSuspense
 id editEmail
+id editNome
 id editSenha
 id logoImage
 id recyclerLivros
@@ -25,6 +29,7 @@ id txtPrecoLivro
 id txtTituloDetalhe
 id txtTituloGenero
 id txtTituloLivro
+layout activity_cadastro
 layout activity_detalhe_livro
 layout activity_genero
 layout activity_lista_livros

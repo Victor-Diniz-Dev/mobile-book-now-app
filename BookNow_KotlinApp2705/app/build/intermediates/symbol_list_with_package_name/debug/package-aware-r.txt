@@ -2983,6 +2983,7 @@ drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
+drawable ic_launcher_background
 drawable ic_logo
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
@@ -3169,11 +3170,13 @@ id bounceStart
 id btnAcao
 id btnAdicionarCarrinho
 id btnBiografia
+id btnCadastrar
 id btnCientifico
 id btnComedia
-id btnEntrar
+id btnContinuar
 id btnFiccao
 id btnHq
+id btnLogin
 id btnRomance
 id btnSuspense
 id buttonPanel
@@ -3250,6 +3253,7 @@ id easeOut
 id east
 id edge
 id editEmail
+id editNome
 id editSenha
 id edit_query
 id elastic
@@ -3698,6 +3702,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cadastro
 layout activity_detalhe_livro
 layout activity_genero
 layout activity_lista_livros

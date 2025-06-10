@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -21,7 +22,10 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
-  public final Button btnEntrar;
+  public final TextView btnCadastrar;
+
+  @NonNull
+  public final Button btnLogin;
 
   @NonNull
   public final EditText editEmail;
@@ -29,10 +33,11 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final EditText editSenha;
 
-  private ActivityLoginBinding(@NonNull ScrollView rootView, @NonNull Button btnEntrar,
-      @NonNull EditText editEmail, @NonNull EditText editSenha) {
+  private ActivityLoginBinding(@NonNull ScrollView rootView, @NonNull TextView btnCadastrar,
+      @NonNull Button btnLogin, @NonNull EditText editEmail, @NonNull EditText editSenha) {
     this.rootView = rootView;
-    this.btnEntrar = btnEntrar;
+    this.btnCadastrar = btnCadastrar;
+    this.btnLogin = btnLogin;
     this.editEmail = editEmail;
     this.editSenha = editSenha;
   }
@@ -64,9 +69,15 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnEntrar;
-      Button btnEntrar = ViewBindings.findChildViewById(rootView, id);
-      if (btnEntrar == null) {
+      id = R.id.btnCadastrar;
+      TextView btnCadastrar = ViewBindings.findChildViewById(rootView, id);
+      if (btnCadastrar == null) {
+        break missingId;
+      }
+
+      id = R.id.btnLogin;
+      Button btnLogin = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogin == null) {
         break missingId;
       }
 
@@ -82,7 +93,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ScrollView) rootView, btnEntrar, editEmail, editSenha);
+      return new ActivityLoginBinding((ScrollView) rootView, btnCadastrar, btnLogin, editEmail,
+          editSenha);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.booknow.app-mergeDebugResources-29:/values-v16/values-v16.xml",
+            "outputFile": "com.example.booknow.app-mergeDebugResources-33:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\joaol\\.gradle\\caches\\transforms-3\\3aea1add3a04a0da174bb1bf7eaee514\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/victordiniz/.gradle/caches/transforms-3/a807706c74770235760096a1283445c6/transformed/core-1.9.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\joaol\\.gradle\\caches\\transforms-3\\6714c1b506c6a9f1a0aee459907b35e6\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/victordiniz/.gradle/caches/transforms-3/3cb79c4bbed3f9ae3aca5a71ec76096d/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
