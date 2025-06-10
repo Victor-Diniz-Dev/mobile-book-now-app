@@ -1,6 +1,8 @@
 
 # 📱 BookNow - Livraria de eBooks
 
+![Tela Inicial](BookNow_KotlinApp2705/app/src/main/res/drawable/home.png)
+
 *BookNow* é um aplicativo móvel de livraria de eBooks, desenvolvido em Kotlin para a plataforma Android. O aplicativo permite aos usuários navegar por uma variedade de livros digitais, fazer login, explorar gêneros, ver detalhes das obras e concluir a compra de forma simples e intuitiva. A arquitetura do projeto segue práticas modernas de desenvolvimento Android, adicionar livros ao carrinho e concluir a compra de forma simples e intuitiva.
 
 ## 🔧 Funcionalidades
