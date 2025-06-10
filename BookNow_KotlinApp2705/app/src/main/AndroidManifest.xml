@@ -25,7 +25,8 @@
         <activity android:name=".model.GeneroActivity" android:exported="false"/>
         <activity android:name=".ListaLivrosActivity" android:exported="false"/>
         <activity android:name=".DetalheLivroActivity" android:exported="false"/>
-        <activity android:name=".CadastroActivity"/>
+        <activity android:name=".model.CadastroActivity"/>
+
 
 
 
