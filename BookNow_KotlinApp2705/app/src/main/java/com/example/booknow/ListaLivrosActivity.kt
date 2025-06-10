@@ -44,17 +44,21 @@ class ListaLivrosActivity : AppCompatActivity() {
                 if (response.isSuccessful) {
                     val livrosFiltrados = response.body()?.filter { it.genero_id == generoId } ?: emptyList()
 
+                    // Passando o contexto diretamente para o adapter
                     adapter = LivroAdapter(livrosFiltrados.map {
                         Livro(
                             titulo = it.titulo,
                             preco = it.preco.toDouble(),
-                            emEstoque = it.estoque > 0
+                            emEstoque = it.estoque > 0,
+                            autor = it.autor
                         )
-                    }) { livroSelecionado ->
+                    }, this@ListaLivrosActivity) { livroSelecionado ->
+                        // Lógica para abrir a tela de detalhes do livro
                         val intent = Intent(this@ListaLivrosActivity, DetalheLivroActivity::class.java)
                         intent.putExtra("LIVRO", livroSelecionado.titulo)
                         intent.putExtra("PRECO", livroSelecionado.preco)
                         intent.putExtra("ESTOQUE", livroSelecionado.emEstoque)
+                        intent.putExtra("AUTOR", livroSelecionado.autor) //Ele nao ta identificando o Autor...
                         startActivity(intent)
                     }
 
