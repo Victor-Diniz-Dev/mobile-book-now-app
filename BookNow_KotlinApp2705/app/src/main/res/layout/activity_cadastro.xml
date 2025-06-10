@@ -26,6 +26,7 @@
         <EditText
             android:id="@+id/editNome"
             android:hint="Digite seu nome"
+            android:layout_gravity="start"
             android:background="@drawable/rounded_edittext"
             android:padding="12dp"
             android:layout_width="match_parent"
@@ -42,6 +43,8 @@
         <EditText
             android:id="@+id/editEmail"
             android:hint="Digite seu e-mail"
+            android:layout_gravity="start"
+
             android:inputType="textEmailAddress"
             android:background="@drawable/rounded_edittext"
             android:padding="12dp"
@@ -59,6 +62,7 @@
         <EditText
             android:id="@+id/editSenha"
             android:hint="Digite sua senha"
+            android:layout_gravity="start"
             android:inputType="textPassword"
             android:background="@drawable/rounded_edittext"
             android:padding="12dp"
