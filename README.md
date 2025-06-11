@@ -39,9 +39,8 @@ Antes de executar o projeto, você precisará ter as seguintes ferramentas insta
 ## 🧱 Como Executar o Projeto
 
 1. *Clone o repositório:*
-   bash
+   ```bash
    git clone https://github.com/usuario/repo.git
-   
 
 2. *Abra o projeto no Android Studio:*
    - Vá até o Android Studio, clique em Open, e selecione a pasta do projeto.
